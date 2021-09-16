@@ -24,7 +24,8 @@ function userName(data){
         li.innerText = `Name: ${user.name}
         Email: ${user.email}
         Id: ${user.id}
-        Address: ${user.address[0]}`;
+        Address: ${user.address.city};
+        Website: ${user.website}`;
         ul.appendChild(li);
     }
 }
